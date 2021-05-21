@@ -40,6 +40,7 @@ public class EmpController extends MultiActionController {
 		//ModelAndView는 scope속성이 request이다.
 		mav.addObject("empList", empList);
 		mav.setViewName("di/getEmpList");
+		
 		return mav;
 		//return "redirect:getEmpList.jsp";
 	}
